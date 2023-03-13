@@ -1,0 +1,163 @@
+:root {
+    
+    --brend-color: #3B668D;
+    --base-white-color: #FFFFFF;
+    --base-purple-color: #79788F;
+    --bese-grin-color: #40BF3D;
+    --base-days-color: #3B668D;
+    --base-price-color: #8572FF;
+    --text-price-color: #567796;
+    --number-info-color: #425B8C;
+    --text-info-color: #718DC2;
+    --form-text-color: #3B3F8D;
+    --form-input-color: #ADADAD; 
+    --title-faq-color: #46637E;
+    --text-faq-color: #878787;
+    --text-page-color: #2B4964;
+    --background-color: #E5E5E5;
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+/* comfortaa-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/comfortaa-v40-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/comfortaa-v40-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/comfortaa-v40-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/comfortaa-v40-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/comfortaa-v40-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/comfortaa-v40-cyrillic_latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
+  }
+  /* comfortaa-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/comfortaa-v40-cyrillic_latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/comfortaa-v40-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/comfortaa-v40-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/comfortaa-v40-cyrillic_latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/comfortaa-v40-cyrillic_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/comfortaa-v40-cyrillic_latin-700.svg#Comfortaa') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/poppins-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-300 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v30-cyrillic_latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-cyrillic_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-cyrillic_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v30-cyrillic_latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v30-cyrillic_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v30-cyrillic_latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-regular - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v30-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v30-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v30-cyrillic_latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-500 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-cyrillic_latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-cyrillic_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v30-cyrillic_latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v30-cyrillic_latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v30-cyrillic_latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-900 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-cyrillic_latin-900.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-cyrillic_latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v30-cyrillic_latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v30-cyrillic_latin-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v30-cyrillic_latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v30-cyrillic_latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-regular - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-cyrillic_latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-cyrillic_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-cyrillic_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-cyrillic_latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-cyrillic_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-cyrillic_latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+
+.container  {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 390px) {
+    .container {
+    max-width: 360px;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    .container {
+        max-width: 1890px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
