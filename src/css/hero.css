@@ -1,6 +1,7 @@
 .hero {
   background-image: url(../public/hero-background.svg);
   height: 100vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   color: var(--brend-color);
