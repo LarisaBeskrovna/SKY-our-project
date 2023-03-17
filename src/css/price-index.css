@@ -1,0 +1,251 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.prices-section-title {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3B668D;
+    margin-bottom: 60px;
+}
+
+.prices-section-after-title {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.23;
+    text-align: center;
+    color: #79788F;
+    margin-bottom: 77px;
+}
+
+.card {
+    filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.1));
+    box-shadow: 0px 13px 27px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 375px;
+    text-align: center;
+    padding: 57px 38px 41px 40px;
+    margin-bottom: 30px;
+}
+
+.bg-card {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.card:first-child .bg-card {
+    width: 79.6%;
+}
+
+.card:nth-child(2) .bg-card {
+    width: 80%;
+}
+
+.card:last-child .bg-card {
+    width: 100%;
+}
+
+.prices-pre-title-card {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #40BF3D;
+    margin-bottom: 14px;
+}
+
+.prices-title-card {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.125;
+    text-align: center;
+    color: #3B668D;
+    margin-bottom: 12px;
+}
+
+.prices-after-title-card {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.11;
+    text-align: center;
+    color: #8572FF;
+    padding-bottom: 39px;
+    position: relative;
+    margin-bottom: 54px;
+}
+
+.prices-after-title-card::after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+    width: 186.21px;
+    border: 1px solid #D3D3D3;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.card-list {
+    display: block;
+    text-align: start;
+    margin-bottom: 66px;
+}
+
+.card-list-item {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.43;
+    color: #567796;
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.prices-button {
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.125;
+    text-align: center;
+    width: 188px;
+    color: #FFFFFF;
+    margin: 0 auto 63px;
+    padding: 18px 43px 10px 43px;
+    display: block;
+    cursor: pointer;
+}
+
+.card:not(:nth-child(2)) .prices-button {
+    margin-bottom: 0;
+}
+
+.guarantee {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #567796;
+}
+
+@media screen and (min-width:390px) {
+    .container {
+        width: 390px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:1919px) {
+    .card {
+        margin: 0 auto 60px;
+    }
+
+    .card:first-child {
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container {
+        width: 1920px;
+    }
+
+    .prices-section-title {
+        letter-spacing: 0.285em;
+        margin-bottom: 23px;
+    }
+
+    .cards-list {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .card {
+        padding: 120px 71px 56px;
+        max-width: 450px;
+        width: 450px;
+        margin-bottom: 0;
+    }
+
+    .card:last-child .bg-card {
+        width: 690px;
+    }
+
+    .prices-after-title-card {
+        padding-bottom: 115px;
+        margin-bottom: 76px;
+    }
+
+    .prices-button {
+        width: 308px;
+        padding: 26px 103px 26px 103px;
+    }
+
+    .hoverable {
+        scale: 1.25;
+        margin: 80px 40px 0;
+    }
+}
