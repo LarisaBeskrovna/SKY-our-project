@@ -32,7 +32,9 @@ section {
     padding-right: 5px;
     padding-left: 5px;
 }
-
+.section-bg{
+    display: none;
+}
 
 .prices-section-title {
     font-family: "Roboto";
@@ -210,7 +212,12 @@ section {
     .container {
         width: 1920px;
     }
-
+    .section-bg {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 29%;
+    }
     .prices-section-title {
         letter-spacing: 0.285em;
         margin-bottom: 23px;

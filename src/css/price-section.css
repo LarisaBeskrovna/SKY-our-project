@@ -32,8 +32,12 @@ section {
     padding-right: 5px;
     padding-left: 5px;
 }
-
-
+.section-bg {
+    display: none;
+}
+.prices-section-title-mobile{
+    display: none;
+}
 .prices-section-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -44,6 +48,7 @@ section {
     text-transform: uppercase;
     color: #3B668D;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .prices-section-after-title {
@@ -197,7 +202,6 @@ section {
     .card {
         margin: 0 auto 60px;
     }
-
     .card:first-child {
         padding-top: 120px;
         padding-bottom: 20px;
@@ -208,13 +212,24 @@ section {
         padding-top: 120px;
         padding-bottom: 20px;
     }
+        .prices-section-title-mobile{
+            display: block;
+        }
+    .prices-section-title-desktop{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1920px) {
     .container {
         width: 1920px;
     }
-
+        .section-bg {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 29%;
+        }
     .prices-section-title {
         letter-spacing: 0.285em;
         margin-bottom: 23px;
