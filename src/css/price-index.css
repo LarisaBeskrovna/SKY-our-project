@@ -66,6 +66,7 @@ section {
     text-align: center;
     padding: 57px 38px 41px 40px;
     margin-bottom: 30px;
+    transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bg-card {
@@ -120,7 +121,6 @@ section {
     position: relative;
     margin-bottom: 54px;
 }
-
 .prices-after-title-card::after {
     content: "";
     position: absolute;
@@ -152,8 +152,10 @@ section {
 .card-list-item:last-child {
     margin-bottom: 0;
 }
-
-.prices-button {
+.prices-button{
+    display: none;
+}
+.card:hover .prices-button {
     background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
     border-radius: 62px;
     font-family: 'Comfortaa';
@@ -169,12 +171,11 @@ section {
     display: block;
     cursor: pointer;
 }
-
-.card:not(:nth-child(2)) .prices-button {
-    margin-bottom: 0;
+.guarantee{
+    display: none;
 }
-
-.guarantee {
+.card:hover .guarantee {
+    display: block;
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 400;
@@ -245,8 +246,11 @@ section {
         padding-bottom: 115px;
         margin-bottom: 76px;
     }
-
-    .prices-button {
+    .card:nth-child(2) .prices-after-title-card {
+        padding-bottom: 87px;
+        margin-bottom: 72px;
+    }
+    .card:hover .prices-button {
         width: 308px;
         padding: 26px 103px 26px 103px;
     }
