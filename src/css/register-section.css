@@ -1,0 +1,23 @@
+.register-heading{
+    width:349px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 72px;
+    color: #3B668D;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+}
+.register-subheading{
+    width:349px;
+    letter-spacing: 0.38em;
+    line-height: 150%;
+    font-family: 'Monserat';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+.register-form{
+    color: #F3F3F3;
+    border-radius: 61px;
+}
