@@ -27,6 +27,10 @@
     .wrapper-featuredlink {
         display: none;
     }
+
+        .list-contact-us {
+        margin-bottom: 79px;
+    }
 }
 
 .footer-section {
@@ -43,7 +47,7 @@ font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 1.13;
+    line-height: 2;
     color: #FFFFFF;
     margin-bottom: 73px;
 }
@@ -56,7 +60,7 @@ font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 1.13;
+    line-height: 2;
     color: #FFFFFF;
 }
 
@@ -65,22 +69,22 @@ font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 2;
     color: #FFFFFF;
 }
+
+
 
 .item-contact-us {
     font-family: 'Comfortaa';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 1.5;
+        line-height: 2.5;
         color: #FFFFFF;
 }
 
-.list-contact-us {
-    margin-bottom: 79px;
-}
+
 
 .line {
     width: 100%;
@@ -93,7 +97,7 @@ font-family: 'Comfortaa';
      font-family: 'Comfortaa';
     font-weight: 700;
     font-size: 24px;
-    line-height: 1.13;
+    line-height: 2;
     text-align: center;
     color: #FFFFFF;
 }
@@ -149,6 +153,32 @@ font-family: 'Comfortaa';
     margin-right: 234px;
 }
 
+
+.wrapper-copyright::before {
+    width: 1600px;
+    content: "";
+    position: absolute;
+    left: 6.7%;
+    top: 0;
+    display: block;
+    border: 1px solid #FFFFFF;
+}
+
+.text-footer {
+    line-height: 1.4;
+}
+
+.text-footer.desktop {
+    line-height: 3;
+}
+
+.mail {
+    margin-top: 34px;
+}
+
+.tel {
+    margin-top: 19px;
+}
 /* .line {
     width: 1600px;
     border: 1px solid #FFFFFF;
