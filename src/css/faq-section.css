@@ -1,0 +1,120 @@
+:root {
+
+    --brend-color: #3B668D;
+    --base-white-color: #FFFFFF;
+    --base-purple-color: #79788F;
+    --bese-grin-color: #40BF3D;
+    --base-days-color: #3B668D;
+    --base-price-color: #8572FF;
+    --text-price-color: #567796;
+    --number-info-color: #425B8C;
+    --text-info-color: #718DC2;
+    --form-text-color: #3B3F8D;
+    --form-input-color: #ADADAD;
+    --title-faq-color: #46637E;
+    --text-faq-color: #878787;
+    --text-page-color: #2B4964;
+    --background-color: #E5E5E5;
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*  FOR MOBILE SCREEN */
+
+.faq {
+    padding-top: 146px;
+    background-color: var(--base-white-color);
+}
+
+.faq-title {
+    color: var(--brend-color);
+
+    margin-bottom: 15px;
+    
+
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: calc(72 / 70);
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.faq-pretitle {
+    color: var(--brend-color);
+
+    margin-bottom: 59px;
+
+    font-family: 'Montserrat';
+   
+    font-size: 22px;
+    line-height: calc(36 / 22);
+
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.faq-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-list {
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+
+
+.faq-title-list {
+    background: linear-gradient(90deg, rgba(178, 227, 255, 0.2) 0%, rgba(223, 191, 255, 0.2) 100%);
+    
+    color: var(--title-faq-color);
+
+    font-family: 'Comfortaa';
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(33 / 28);
+
+    padding-top: 28px;
+    padding-left: 54px;
+    padding-bottom: 28px;
+    padding-right: 28px;
+}
+
+.faq-title-list::after {
+    content: "+";
+    margin-left: 10px;
+    color: var(--text-faq-color);
+}
+
+.faq-title-list.active {
+    margin-bottom: 31px;
+    background: linear-gradient(90deg, #B1E3FF 0%, #DFBEFF 100%);
+}
+
+.faq-title-list.active::after{
+    content: "-";
+    margin-left: 10px;
+    color: var(--text-faq-color);
+}
+
+.faq-text-list {
+    display: none;
+
+    color: var(--text-faq-color);
+    font-family: 'Comfortaa';
+    
+    font-size: 20px;
+    line-height: calc(30 / 20);
+}
+
+.faq-text-list.active {
+    display: block;
+    overflow: initial;
+}
+
+
