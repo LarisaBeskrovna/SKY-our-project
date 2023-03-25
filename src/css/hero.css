@@ -1,0 +1,137 @@
+.hero {
+  background-image: url(../public/hero-background.svg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: var(--brend-color);
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-inner {
+  padding-top: 121px;
+}
+.container-description {
+  width: 530px;
+}
+
+.hero-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 0.97;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.hero-title-descr {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.905em;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+
+}
+
+.hero-slogan {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 156%;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+}
+
+.hero-descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.075em;
+  margin-bottom: 27px;
+}
+
+.hero-link {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.12;
+  text-align: center;
+  color: var(--base-white-color);
+  background-image: url(../public/hero-background-btn.png);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 45px;
+  padding: 24px 55px;
+  transition: transform var(--animation);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  transform: scale(1.2);
+}
+
+
+@media screen and (min-width: 390px) {
+  .hero-title {
+    text-align: center;
+  }
+  .hero-title-descr{
+    text-align: center;
+  }
+  .container-description {
+    width: 371px;
+    text-align: center;
+  }
+  .hero-title-descr {
+    letter-spacing: 0.35em;
+  }
+  .hero-title-descr {
+    margin-bottom: 30px;
+  }
+  .hero-descr {
+    margin-bottom: 47px;
+  }
+  p.hero-descr {
+    text-align: left;
+  }
+
+}
+
+
+@media screen and (min-width: 1920px) {
+  .container-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 261px;
+    flex-direction: row-reverse;
+  }
+  .hero-title {
+    text-align: left;
+  }
+
+  .hero-title-descr{
+    text-align: left;
+    padding-bottom: 32px;
+    border-bottom: 2px solid var(--brend-color);
+  }
+  .container-description {
+    width: 530px;
+  }
+  .hero-title-descr {
+    letter-spacing: 0.905em;
+  }
+  .hero-title-descr {
+    margin-bottom: 45px;
+  }
+  .hero-descr {
+    margin-bottom: 27px;
+  }
+  .container-description {
+    text-align: left;
+  }
+  img.hero-img {
+    max-width: 100% !important;
+  }
+}
