@@ -19,17 +19,26 @@
 }
 
 /*  FOR MOBILE SCREEN */
-
-.faq {
-    padding-top: 146px;
+.faq-hero {
+    background-image: url(../img/faq/BG.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 390px;
     background-color: var(--base-white-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq-hero .container {
+    padding-left: 22px;
+    padding-right: 29px;
 }
 
 .faq-title {
-    color: var(--brend-color);
-
+    padding-top: 211px;
     margin-bottom: 15px;
-    
+
+    color: var(--brend-color);
 
     font-family: 'Roboto';
     font-weight: 900;
@@ -37,24 +46,30 @@
     line-height: calc(72 / 70);
     letter-spacing: 0.025em;
     text-transform: uppercase;
-
     text-align: center;
 }
 
 .faq-pretitle {
     color: var(--brend-color);
 
-    margin-bottom: 59px;
+    padding-bottom: 30px;
 
     font-family: 'Montserrat';
    
-    font-size: 22px;
-    line-height: calc(36 / 22);
-
+    font-size: 21px;
+    line-height: calc(36 / 21);
     letter-spacing: 0.38em;
     text-transform: uppercase;
-
     text-align: center;
+}
+.faq{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.faq .container{
+    padding-left: 18px;
+    padding-right: 13px;
 }
 
 .faq-ul {
@@ -87,28 +102,31 @@
 
 .faq-title-list::after {
     content: "+";
-    margin-left: 10px;
+    margin-left: 20px;
     color: var(--text-faq-color);
 }
 
 .faq-title-list.active {
     margin-bottom: 31px;
     background: linear-gradient(90deg, #B1E3FF 0%, #DFBEFF 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .faq-title-list.active::after{
     content: "-";
-    margin-left: 10px;
+    margin-left: 20px;
     color: var(--text-faq-color);
 }
 
 .faq-text-list {
     display: none;
+    padding-bottom: 30px;
 
     color: var(--text-faq-color);
     font-family: 'Comfortaa';
     
-    font-size: 20px;
+    font-size: 25px;
     line-height: calc(30 / 20);
 }
 
@@ -117,4 +135,28 @@
     overflow: initial;
 }
 
+/*  FOR DESCTOP SCREEN */
+@media screen and (min-width: 1920px) {
+    .faq-hero {
+        background-image: url(../img/faq/bg-desktop.png);
+   
+        background-size: 1920px;
+    }
 
+    .faq-hero .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .faq-title {
+        padding-top: 332px;
+    }
+
+    .faq-pretitle {
+        padding-bottom: 62px;
+    
+        font-size: 24px;
+        line-height: calc(36 / 24);
+
+    }
+}
