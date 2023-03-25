@@ -22,12 +22,12 @@ ol {
     padding-left: 0;
 }
 
-section {
+.price-section {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.container {
+.price-container {
     width: 100%;
     padding-right: 5px;
     padding-left: 5px;
