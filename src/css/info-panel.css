@@ -5,7 +5,8 @@
     background-image: url("../img/bg-stats.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 100%;
+    /* max-width: 100%; */
+    max-width: 1920px;
     }
 }
 
