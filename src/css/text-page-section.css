@@ -1,0 +1,161 @@
+
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.text-page {
+    
+}
+
+.main-title {
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 60px;
+line-height: calc(62/60);
+letter-spacing: 0.025em;
+color: var( --brend-color);
+margin-bottom: 15px;
+}
+
+.two-title {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: calc(36/23);
+    color: var( --brend-color);
+    letter-spacing: 0.38em;
+    margin-bottom: 60px;
+}
+
+.three-title{
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 36px;
+line-height: calc(60/36);
+color: var( --brend-color);
+margin-bottom: 15px;
+}
+
+.txt{
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+line-height: calc(27/18);
+color: var( --brend-color);
+}
+
+.two-list-title{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 36px;
+line-height: calc(60/36);
+color: var( --brend-color);
+margin-top: 15px;
+}
+
+.flex-cont{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+
+
+
+.one-list {
+
+}
+
+.item {
+
+}
+
+.two-list {
+
+}
+
+.item-two {
+
+}
+
+.none{
+    display: none;
+}
+
+.span{
+    display: none;
+}
+
+
+@media screen and (min-width: 390px) {
+
+    .conta{
+        width: 350px;
+    }
+    
+}
+
+@media screen and (min-width: 1920px) {
+    .conta{
+        width: 1920px;
+        background-image: url(../img/BG-txtt.svg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top;
+    }
+
+    .main-title ,.two-title{
+        text-align: center;
+    }
+
+    .three-title{
+        margin-left: -15px;
+    }
+
+    .main-title{
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: calc(72/70);
+    letter-spacing: 0.405em;
+    }
+
+    .two-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(36/24);
+    letter-spacing: 0.905em;
+     }
+
+     .flex-cont{
+        gap: 15px;
+     }
+
+     .txt-cont{
+        width: 1184px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+
+     .none{
+        display: block;
+        margin-top: 26px;
+     }
+     .two-list-title{
+        margin-top: 46px;
+        margin-bottom: 10px;
+     }
+
+     .flex-cont{
+        margin-top: 26px;
+        margin-bottom: 26px;
+     }
+
+     .span{
+        display: block;
+     }
+}
