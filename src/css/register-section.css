@@ -1,0 +1,228 @@
+.register-heading{
+    width:349px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 72px;
+    color: var(--base-days-color); /*#3B668D*/
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    margin:0 auto;
+}
+.register-subheading{
+    width:349px;
+    letter-spacing: 0.38em;
+    line-height: 150%;
+    font-family: 'Monserrat';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--base-days-color); /*#3B668D*/
+    margin:0 auto;
+    margin-top: 15px;
+    margin-bottom: 37px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.register-form{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 52px;
+   align-items: center;
+   gap: 20px;
+
+}
+
+
+.input{
+    min-width: 358px;
+    padding-bottom: 36px;
+    padding-top: 36px;
+    border-radius: 61px;
+  background-color:var(--register-input-color);/*#f3f3f3*/;
+  border:none;
+  padding-left: 63px;
+
+}
+.input::placeholder{
+   
+    color: var(--form-input-color);/* #ADADAD*/
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 24px;
+}
+input:focus-within{
+    color:var(--form-input-color);/* #ADADAD*/
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 24px;
+    outline:none;
+}
+.register-button{
+    min-width: 350px;
+    border-radius: 62px;
+    padding: 26px 124px;
+    color:var(-base-white-color);/* #FFFFFF;*/
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    background: linear-gradient(90deg , #43A1D6  0% , #907Eff 100%);   
+}
+.register-label{
+    display: none;
+}
+.terms-radio-button{
+    display: none;
+}
+/*CApcha------------------------------------------------------------------------------------------------*/
+.capcha-img{
+    width: 260px;
+    height: 100px;
+    position: relative;
+}
+.reload-btn{
+    background-color: transparent;
+    border: none;
+}
+.capcha-input{
+    min-width:286px;
+    margin-top: 46px;
+}
+.capcha-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:37px;
+}
+.captcha{
+    margin-right: 20px;
+    position: absolute;
+     font-size: 45px;
+     font-weight: 700;
+     background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.status-text{
+    font-size: 24px;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    margin-bottom: 19px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*   ----------------  end of capcha */
+
+
+@media screen and (min-width: 1920px) {
+    .container {
+      max-width: 1890px;
+    }
+    .register-heading{
+        width:540px;
+        letter-spacing: 0.405em;
+        margin:0 auto;
+    }
+    .register-subheading{
+        width:579px;
+        letter-spacing: 0.905em;
+        margin-top: 15px;
+        margin-bottom: 88px;
+      }
+    .register-form{
+       display: flex;
+       flex-direction: column;
+       margin-bottom:73px;
+       align-items: center;
+       justify-content: center
+      }
+    .input{
+      width: 630px;
+      padding-bottom: 36px;
+      padding-top: 36px;
+      border-radius: 50px;
+      background-color:var(--register-input-color);/* #F3F3F3;*/
+      border:none;
+      padding-left: 58px;
+    }
+    .register-label{
+        display: unset;
+    }
+   .register-input-div{
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+        gap:45px;
+   } 
+    .register{
+    background-image: url('./img/faq/register-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   .register-label{
+    color:var(--form-text-color);/*3B3F8D*/
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Comfortaa';
+    width:160px;
+    display: flex;
+    justify-content: end;
+   }
+    .radio-button-div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+   }
+   .terms-radio-button{
+    color:var(--form-input-color); /*#ADADAD*/
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1;
+    display: unset;
+   }
+   .input::placeholder{
+    color:var(--register-input-color); /*#F3F3F3;*/
+   }
+   input[type='radio'] {
+    accent-color: #7a00f4;
+  }
+.register-button{
+    margin-left: 54px;
+}
+.captcha{
+    left:40%;
+    width:unset;
+    font-size: 40px;
+}
+.capcha-input::placeholder{
+color: var(--form-input-color); /*#ADADAD*/
+}
+.capcha-area{
+    display: flex;
+    margin-right:-200px;
+    margin-top: 35px;
+}
+.capcha-input{
+  max-width: 286px;
+  margin-top: 0;
+  margin-left:30px;
+  position: relative;
+}
+.capcha-div{
+  flex-direction: row-reverse;
+  gap:12px;
+ 
+}
+.status-text{
+  position:absolute;
+  left:40%;
+  top:78%;
+}
+.heading-div{
+  margin-left:200px;
+}
+}
