@@ -1,0 +1,218 @@
+/* --------C O N T A C T-------- */
+
+.contact-section {
+  background-image: url(../img/contact-page/bg-mob.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: var(--base-white-color);
+  padding-top: 211px;
+  padding-bottom: 157px;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 15px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 0.97;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: var(--base-days-color);
+}
+
+.contact-after-title {
+  text-align: center;
+  margin-bottom: 54px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.38em;
+  text-transform: uppercase;
+  color: var(--base-days-color);
+}
+
+.map-picture-wrap {
+  display: flex;
+  margin: auto;
+  width: 390px;
+  margin-bottom: 85px;
+}
+
+.contact-form-title {
+  text-align: center;
+  margin-bottom: 17px;
+
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.13;
+  color: var(--base-days-color);
+}
+
+.contact-form-text {
+  text-align: center;
+  margin-bottom: 47px;
+
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.13;
+  color: var(--base-purple-color);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-field {
+  margin: auto;
+  font-size: 24px;
+}
+
+.contact-label {
+  display: none;
+}
+
+.contact-form-input {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 36px 0 36px 58px;
+  width: 359px;
+  height: 100px;
+
+  background: #f3f3f3;
+  border-radius: 50px;
+  border: transparent;
+}
+
+.contact-form-input::placeholder,
+.contact-form-message::placeholder {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.13;
+  color: var(--form-input-color);
+}
+
+.contact-form-message {
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 36px 0 0 47px;
+  width: 356px;
+  height: 273px;
+
+  background: #f3f3f3;
+  border-radius: 50px;
+  border: transparent;
+  resize: none;
+}
+
+.contact-form-notice {
+  margin-bottom: 36px;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  color: var(--form-input-color);
+}
+
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 251px;
+  height: 79px;
+  margin: 0 auto;
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.13;
+  color: var(--base-white-color);
+  background: linear-gradient(90deg, #43a1d6 0%, #907eff 100%);
+  border-radius: 62px;
+  border: transparent;
+}
+
+@media screen and (min-width: 1920px) {
+  .contact-section {
+    padding-top: 332px;
+    background-image: url(../img/contact-page/bg-header-desk.jpg),
+      url(../img/contact-page/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-position: top, 50% 90%;
+  }
+
+  .contact-title {
+    letter-spacing: 0.405em;
+  }
+
+  .contact-after-title {
+    margin-bottom: 85px;
+    letter-spacing: 0.905em;
+  }
+
+  .map-picture-wrap {
+    width: 1920px;
+    margin-bottom: 170px;
+  }
+
+  .contact-form-title {
+    margin-bottom: 29px;
+    font-size: 72px;
+    line-height: 1.11;
+  }
+
+  .contact-form-text {
+    margin-bottom: 79px;
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  .contact-form-field {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-label {
+    display: flex;
+    margin-right: 45px;
+  }
+
+  .contact-form-input {
+    width: 630px;
+  }
+
+  .contact-form-message {
+    width: 749px;
+    margin-bottom: 20px;
+  }
+
+  .contact-notice-button-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-form-notice {
+    display: block;
+    margin-bottom: 0;
+    margin-right: 155px;
+  }
+
+  .subscribe-btn {
+    margin: 0;
+  }
+}
