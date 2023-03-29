@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat&family=Poppins:wght@500&family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
     
-    <link rel="stylesheet" href="/vanilla-app-template/assets/register-8f0a6ae9.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/register-bec2d151.css">
   </head>
   <body>
     <header>
@@ -39,14 +39,14 @@
           </ul>
           <button class="mobile-menu-btn" type="button" data-menu-open>
             <svg class="mobile-menu-icon" width="51" height="26">
-              <use href="/vanilla-app-template/assets/sprite-6f461f80.svg#icon-menu_btn"></use>
+              <use href="/vanilla-app-template/assets/sprite-27510271.svg#icon-menu_btn"></use>
             </svg>
           </button>
         </nav>
         <div class="mobile-menu-box visually-hidden" data-menu>
           <button class="menu-box-close-btn" type="button" data-menu-close>
             <svg class="menu-box-close-icon" width="24" height="16">
-              <use href="/vanilla-app-template/assets/sprite-6f461f80.svg#icon-menu-close"></use>
+              <use href="/vanilla-app-template/assets/sprite-27510271.svg#icon-menu-close"></use>
             </svg>
           </button>
           <ul class="menu-box-navigation-list list">
@@ -73,7 +73,66 @@
     </header>
     </header>
     <main>
-      
+      <section class="register">
+    <div class="container">
+     <div class="heading-div">
+    <h1 class="register-heading">Register</h1>
+    <h2 class="register-subheading">Online Storage</h2>
+    </div>
+    <form class="register-form"  name="register-form" novalidate>
+
+    <div class="register-input-div">
+    <label class="register-label" for="email">E-mail</label>
+    <input  id="email" type="text" placeholder="E-mail" required class="input">
+    </div>
+
+    <div class="register-input-div">
+    <label for="reemail" class="register-label">Re-Email</label>
+    <input id="reemail"  type="text" placeholder="Re-Email" required class="input">
+    </div>
+    <div class="register-input-div">
+    <label for="password" class="register-label">Password</label>
+    <input  id="password" type="text" placeholder="Password" required minlength="10" class="input">
+    </div>
+   <div class="register-input-div">
+    <label for="repassword" class="register-label">Re-Password</label>
+    <input id="repassword" type="text" placeholder="Re-Password" required minlength="10" class="input">
+   </div>
+<!--------------------------------capchaaaaaaaaaaaaaaaaa-->
+<div class="capcha-area">
+    <div class="capcha-div">
+        <button class="reload-btn">
+        <svg width="42" height="42">
+            <use href="/vanilla-app-template/assets/sprite-27510271.svg#icon-Vector"></use>
+        </svg>
+    </button>
+   
+   <img  class="capcha-img" src="/vanilla-app-template/assets/captcha-bg-15b05b47.png" alt="Capcha Background">
+   <span class="captcha"></span>
+    </div>
+<form  class="form-capcha">
+<input  class="input capcha-input" type="text" placeholder="enter capcha" maxlength="6" spellcheck="false" required>
+</form>
+</div>
+
+
+<!--------------------------------------end of capcha-->
+<div class="status-text"></div>
+<div class="radio-button-div">
+<label class="terms-radio-button">
+<input type="radio" name="terms" value="terms" checked />
+ I agree with terms
+</label>
+
+<button type="button" class="register-button">Register</button>
+
+
+</div>
+</form>
+      </div>
+
+</section>
+    
       
       
     </main>
