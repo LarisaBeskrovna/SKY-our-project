@@ -1,0 +1,192 @@
+<<<<<<< Updated upstream
+=======
+:root {
+
+  --brend-color: #3B668D;
+  --base-white-color: #FFFFFF;
+  --base-purple-color: #79788F;
+  --bese-grin-color: #40BF3D;
+  --base-days-color: #3B668D;
+  --base-price-color: #8572FF;
+  --text-price-color: #567796;
+  --number-info-color: #425B8C;
+  --text-info-color: #718DC2;
+  --form-text-color: #3B3F8D;
+  --form-input-color: #ADADAD;
+  --title-faq-color: #46637E;
+  --text-faq-color: #878787;
+  --text-page-color: #2B4964;
+  --background-color: #E5E5E5;
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* -------------MOBILE-------------- */
+.container-img{
+  display: none;
+}
+
+.container-features{
+  display: flex;
+  padding-bottom: 182px;
+  flex-direction: row-reverse;
+  background-image: url(../img/features/BG.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 101px;
+
+}
+.features-item{
+  margin: 0;
+  padding-left: 21px;
+  padding-right: 8px;
+  padding-bottom: 40px;
+}
+
+.icon-bg{
+  display: none;
+}
+
+.features-icon{
+  display: none;
+}
+
+.features-title{
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: #000000;;
+}
+
+.features-description{
+  display: flex;
+  margin: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--base-white-color);
+}
+
+/* ---------------DESCTOP---------- */
+@media screen and (min-width: 1920px){
+
+.desctop-features{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 1661px;
+  height: 1166.39px;
+}
+
+  .container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1153.09px;
+    height: 1166.39px;
+    background-image: url(../img/features/BG.svg);   
+    background-size: cover; 
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cloud-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    width: 1325px;
+    margin-right: 175px;
+    
+  }
+
+  .container-features{
+    display: flex;
+    padding: 0;
+    width: 606px;
+    margin-left: -85px;
+    background-image: none;
+    
+  }
+
+  .features-list{
+    padding: 0;
+    width: 606px;
+  }
+
+  .features-item {
+    display: flex;
+    margin: 0;
+    padding-left: 21px;
+    padding-right: 8px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+    .icon-items{
+    display: flex;
+    margin-right: 30px;
+    padding-top: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .icon-bg {
+      display: flex;
+      position: fixed;
+      z-index: -1;
+    }
+
+    .features-icon {
+      display: flex;
+      position: relative;
+      z-index: 1;
+    }
+
+    .features-title{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 1.6; 
+      color: var(--form-text-color);
+    }
+
+    .features-description{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.5;
+      color: var(--text-page-color);
+    }
+
+
+}
+>>>>>>> Stashed changes
