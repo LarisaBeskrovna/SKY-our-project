@@ -1,4 +1,3 @@
-
 :root {
 
   --brend-color: #3B668D;
@@ -185,6 +184,5 @@
       line-height: 1.5;
       color: var(--text-page-color);
     }
-
 
   }
