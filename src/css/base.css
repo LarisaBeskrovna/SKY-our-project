@@ -135,14 +135,13 @@
 
 @media screen and (min-width: 390px) {
   .container {
-  max-width: 390px;
+    max-width: 360px;
   }
 }
 
-
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1920px) {
   .container {
-      max-width: 1500px;
+    max-width: 1890px;
   }
 }
 
