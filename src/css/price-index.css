@@ -28,6 +28,7 @@ ol {
 }
 
 .price-container {
+    position: relative;
     width: 100%;
     padding-right: 5px;
     padding-left: 5px;
@@ -184,7 +185,7 @@ ol {
 }
 
 @media screen and (min-width:390px) {
-    .container {
+    .price-container {
         width: 390px;
         margin-right: auto;
         margin-left: auto;
@@ -222,7 +223,7 @@ ol {
         padding-top: 182px;
         padding-bottom: 100px;
     }
-    .container {
+    .price-container {
         width: 1920px;
     }
     .section-bg {
