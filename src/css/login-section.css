@@ -25,6 +25,16 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }*/
+.login {
+    background-image: url(../img/faq/BG.png);
+    padding-top: 211px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 390px;
+    background-color: var(--base-white-color);
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .login .container {
     min-width: 358px;
@@ -43,7 +53,6 @@ a {
 }
 
 .login {
-    padding-top: 20px;
     padding-bottom: 20px;
 
     margin-left: auto;
@@ -69,9 +78,9 @@ a {
     font-weight: 400;
     font-family: 'Montserrat';
     /*font-size: 24px BUT does not fit the width of container*/
-    font-size: 22px;
+    font-size: 24px;
     line-height: 150%;
-    letter-spacing: 0.38em;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
     text-align: center;
     color: #3B668D;
@@ -116,7 +125,6 @@ a {
     border: none;
 }
 
-
 .login-btn {
     width: 100%;
     margin-left: auto;
@@ -158,6 +166,15 @@ a {
 
     .login {
         width: 1920px;
+        padding-top: 332px;
+        background-image: url(../img/faq/bg-desktop.png), url(../img/faq/register-background.png);
+   
+        background-size: 1920px;
+
+        background-position: top, 0px 255px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .form-login {
@@ -180,6 +197,7 @@ a {
         position: static;
         display: flex;   
         margin-bottom: 37px;
+
         justify-content: center;
         align-items: center;
     }
@@ -213,6 +231,7 @@ a {
         padding-top: 36px;
         padding-bottom: 37px;
         padding-left: 57px;
+  
         background: #F3F3F3;
         border-radius: 61px;
         border: none;
