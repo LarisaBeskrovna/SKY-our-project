@@ -7,7 +7,11 @@
 
 
 .text-page {
-    
+    background-image: url(../img/faq/BG.png);
+    padding-top: 211px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 390px;
 }
 
 .main-title {
@@ -99,6 +103,15 @@ margin-top: 15px;
 }
 
 @media screen and (min-width: 1920px) {
+    .text-page{
+        padding-top: 332px;
+        background-image: url(../img/faq/bg-desktop.png);
+        background-size: 1920px;
+        background-position: top, 0px 255px;
+        background-repeat: no-repeat;
+    }
+    
+    
     .conta{
         width: 1920px;
         background-image: url(../img/BG-txtt.svg);
