@@ -20,7 +20,7 @@
 .hero-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 69px;
   line-height: 0.97;
   text-transform: uppercase;
   margin-bottom: 9px;
@@ -43,6 +43,7 @@
   line-height: 156%;
   text-transform: uppercase;
   margin-bottom: 13px;
+  text-align: left;
 }
 
 .hero-descr {
@@ -73,7 +74,7 @@
 }
 
 
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 320px) {
   .hero-title {
     text-align: center;
   }
@@ -83,7 +84,7 @@
   }
 
   .container-description {
-    width: 371px;
+    width: 360px;
     text-align: center;
   }
 
